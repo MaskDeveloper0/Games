@@ -9,7 +9,7 @@ let velocityX = 0, velocityY = 0;
 let snakeBody = [];
 let setIntervalId;
 let score = 0;
-// Getting high score from the local storage
+// Getting high score from the local storage, Its store in local Storage.
 let highScore = localStorage.getItem("high-score") || 0;
 highScoreElement.innerText = `High Score: ${highScore}`;
 const updateFoodPosition = () => {
